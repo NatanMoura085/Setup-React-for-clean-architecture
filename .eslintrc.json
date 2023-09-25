@@ -1,0 +1,11 @@
+{
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "identifierToKeywordKind": true
+    },
+    "rules": {
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/strict-boolean-expressions": "off"
+    }
+}
